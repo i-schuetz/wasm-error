@@ -1,3 +1,3 @@
 export const jsfunc = () => {
-  console.log("jsfunc called");
+  console.log("jsfunc called (foo)");
 };

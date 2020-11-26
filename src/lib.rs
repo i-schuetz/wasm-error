@@ -34,10 +34,10 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn rustfunc() {
-    // jsfunc();
+    jsfunc();
 }
 
-#[wasm_bindgen(start)]
-pub fn run() {
-    jsfunc()
-}
+// #[wasm_bindgen(start)]
+// pub fn run() {
+//     jsfunc()
+// }
